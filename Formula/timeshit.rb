@@ -1,16 +1,16 @@
 class Timeshit < Formula
   desc "Toggl Track to timesheet TUI"
   homepage "https://github.com/NoahNxT/Toggl2Timeshit"
-  version "1.4.1"
+  version "1.4.2"
 
   on_macos do
-    url "https://github.com/NoahNxT/Toggl2Timeshit/releases/download/v1.4.1/timeshit-macos.tar.gz"
-    sha256 "b2bca6ed13b91b4a3c8248b23628fdb97625df463ca84222b0a25fd1238bc81d"
+    url "https://github.com/NoahNxT/Toggl2Timeshit/releases/download/v1.4.2/timeshit-macos.tar.gz"
+    sha256 "6854784fc39ab8a27c599870b7626e9d6125a07565aa95b66331dafa5c615ddd"
   end
 
   on_linux do
-    url "https://github.com/NoahNxT/Toggl2Timeshit/releases/download/v1.4.1/timeshit-linux.tar.gz"
-    sha256 "26e184257066b0eb59867c1c481acc3c6979fe4175ae96f54a4cece8c1cc19b7"
+    url "https://github.com/NoahNxT/Toggl2Timeshit/releases/download/v1.4.2/timeshit-linux.tar.gz"
+    sha256 "8313eb1f42a709aa43d7161ab763d14cf05a187dd0793322e5f893055904ba0c"
   end
 
   def install
