@@ -14,6 +14,14 @@ class Timeshit < Formula
   end
 
   def install
-    bin.install "timeshit"
+    if File.exist?("timeshit")
+      bin.install "timeshit"
+    elsif File.exist?("timeshit-macOS")
+      bin.install "timeshit-macOS" => "timeshit"
+    elsif File.exist?("timeshit-Linux")
+      bin.install "timeshit-Linux" => "timeshit"
+    else
+      odie "timeshit binary not found in archive"
+    end
   end
 end
